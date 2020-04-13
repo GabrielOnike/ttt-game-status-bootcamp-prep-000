@@ -39,6 +39,6 @@ end
 
 def winner(board)
   if over?(board)
-    return WIN_COMBINATIONS.each {|win_index| win_index(board)} 
+    return WIN_COMBINATIONS.each {|win_index| win_index(board)}
 end
 end
