@@ -41,3 +41,4 @@ def winner(board)
  if won?(board)= win_row
   board[win_row.first]
 end
+end
