@@ -38,5 +38,5 @@ def over?(board)
 end
 
 def winner(board)
-  won?(board).each {|win_row| board[win_row.first]}
+  won?(board).select {|win_row| board[win_row.first]}
 end
