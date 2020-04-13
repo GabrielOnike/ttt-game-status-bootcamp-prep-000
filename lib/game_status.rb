@@ -38,5 +38,5 @@ def over?(board)
 end
 
 def winner(board)
-   WIN_COMBINATIONS.each {|win_index| win_index(board)}
+  won?(board).each {|win_row| board[win_row.first]}
 end
