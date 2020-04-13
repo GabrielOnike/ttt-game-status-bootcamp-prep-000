@@ -40,5 +40,4 @@ end
 def winner(board)
    WIN_COMBINATIONS.each {|win_index| win_index(board)}
 end
-end
-end
+
