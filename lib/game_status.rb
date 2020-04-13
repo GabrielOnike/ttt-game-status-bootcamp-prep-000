@@ -38,5 +38,6 @@ def over?(board)
 end
 
 def winner(board)
-  won?(board).select {|win_row| board[win_row.first]}
+  won?(board)= win_row
+  board{win_row.first}
 end
